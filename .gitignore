@@ -396,3 +396,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+src/AadB2CAppRegMgmtApp/Properties/launchSettings.json
