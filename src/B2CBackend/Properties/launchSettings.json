@@ -15,7 +15,10 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AZURE_TENANT_ID": "29c1bccd-8368-4c20-a9c8-eb567c04548e",
+        "AZURE_CLIENT_ID": "ecf3a8d3-e31b-4d16-a6ce-21a3d0d8cb70",
+        "AZURE_CLIENT_SECRET": "Sev8Q~gnMLo18u3PWdLGTNQqpZxEVMqd3ZmzmagU"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7019;http://localhost:5254"
