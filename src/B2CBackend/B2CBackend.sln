@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.34929.205
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AadB2CAppRegMgmtApp", "AadB2CAppRegMgmtApp.csproj", "{F8B36BB4-EEC0-4441-9DC8-6AD667175808}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2CBackend", "B2CBackend.csproj", "{791C658A-D651-411A-BCBF-36FD1E691A92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F8B36BB4-EEC0-4441-9DC8-6AD667175808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8B36BB4-EEC0-4441-9DC8-6AD667175808}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8B36BB4-EEC0-4441-9DC8-6AD667175808}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8B36BB4-EEC0-4441-9DC8-6AD667175808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791C658A-D651-411A-BCBF-36FD1E691A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791C658A-D651-411A-BCBF-36FD1E691A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791C658A-D651-411A-BCBF-36FD1E691A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791C658A-D651-411A-BCBF-36FD1E691A92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5691CF60-EC78-4238-9A03-87870AB320F6}
+		SolutionGuid = {A1E8AD7F-7094-4202-B3FA-8A1DF07A7CD7}
 	EndGlobalSection
 EndGlobal

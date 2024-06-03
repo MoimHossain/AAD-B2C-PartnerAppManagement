@@ -18,31 +18,10 @@ try
     var graphClient = new GraphServiceClient(clientSecretCredential);
 
 
-    //var requestBody = new SchemaExtension
-    //{
-    //    Id = "cloudoven_appmetadata",
-    //    Description = "custom extensions demo",
-    //    TargetTypes = ["Group"],
-    //    Properties = 
-    //    [
-    //        new ExtensionSchemaProperty
-    //        {
-    //            Name = "partnerId",
-    //            Type = "Integer",
-    //        },
-    //        new ExtensionSchemaProperty
-    //        {
-    //            Name = "partnerName",
-    //            Type = "String",
-    //        },
-    //        new ExtensionSchemaProperty
-    //        {
-    //            Name = "partnerType",
-    //            Type = "String",
-    //        }
-    //    ]
-    //};    
-    //var result = await graphClient.SchemaExtensions.PostAsync(requestBody);
+    // get user by user id
+    
+    var user = await graphClient.Users["e3646e12-0bc1-4b09-82bb-9b7580595065"].GetAsync();
+
 
 
     //await RegisterAppAsync(graphClient);
