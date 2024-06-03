@@ -398,3 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 *launchSettings.json
 src/B2CBackend/Properties/launchSettings.json
+src/B2CBackend/Properties/launchSettings.json

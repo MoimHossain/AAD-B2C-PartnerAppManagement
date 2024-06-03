@@ -15,6 +15,7 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
+        "test": "xx",
         "ASPNETCORE_ENVIRONMENT": "Development",
         "AZURE_TENANT_ID": "29c1bccd-8368-4c20-a9c8-eb567c04548e",
         "AZURE_CLIENT_ID": "ecf3a8d3-e31b-4d16-a6ce-21a3d0d8cb70",
