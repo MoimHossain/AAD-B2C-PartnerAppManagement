@@ -43,7 +43,18 @@ export const Utility = {
 export const Backend = {
     list: async (path: string, context: SecretContext ) => {        
         const fqdn = `${Config.backendUrl}${path}`;
-        const response = await fetch( fqdn , {headers: {Authorization: context.token}});        
+        const response = await fetch( fqdn , 
+            {
+                headers: {
+                    Authorization: context.token,
+                    "Content-Type": "application/json",
+                    "xmh-apiVersion": `${context.apiVersion}`,
+                    "xmh-hostName": `${context.hostname}`,
+                    "xmh-managementApiUrl": `${context.managementApiUrl}`, 
+                    "xmh-origin": `${context.origin}`,
+                    "xmh-userId": `${context.userId}`                    
+                }
+            });        
         return response.json();
     },
     generate: async (path: string, context: SecretContext, description: string) => {
