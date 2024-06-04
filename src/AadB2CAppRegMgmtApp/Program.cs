@@ -18,8 +18,20 @@ try
     var graphClient = new GraphServiceClient(clientSecretCredential);
 
 
-    // get user by user id
+    var appReponse = await graphClient.Applications.GetAsync();
+    if(appReponse != null && appReponse.Value != null)
+    {
+        appReponse.Value.ForEach(app =>
+        {
+            Console.WriteLine($"Application: {app.DisplayName}");
+        });
+    }
     
+
+
+
+    // get user by user id
+
     var user = await graphClient.Users["e3646e12-0bc1-4b09-82bb-9b7580595065"].GetAsync();
 
 

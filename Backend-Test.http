@@ -1,0 +1,25 @@
+
+
+### GET
+GET https://localhost:7019/api/list
+Authorization: 
+Xmh-Apiversion: 2023-03-01-preview
+Xmh-Hostname: celeste-apim.developer.azure-api.net
+Xmh-Managementapiurl: https://celeste-apim.management.azure-api.net/subscriptions/000/resourceGroups/000/providers/Microsoft.ApiManagement/service/celeste-apim
+Xmh-Origin: https://celeste-apim.developer.azure-api.net
+Xmh-Userid: 665d7a4a46346119082e52d7
+
+
+### POST
+POST https://localhost:7019/api/generate
+Authorization: 
+Xmh-Apiversion: 2023-03-01-preview
+Xmh-Hostname: celeste-apim.developer.azure-api.net
+Xmh-Managementapiurl: https://celeste-apim.management.azure-api.net/subscriptions/000/resourceGroups/000/providers/Microsoft.ApiManagement/service/celeste-apim
+Xmh-Origin: https://celeste-apim.developer.azure-api.net
+Xmh-Userid: 665d7a4a46346119082e52d7
+Content-Type: application/json
+
+{
+    "displayName": "Hello world 1"
+}
